@@ -1,14 +1,5 @@
 [
   {
-    "transaction_id": 1,
-    "title": "maruf",
-    "amount": 1031.0,
-    "category": "Local",
-    "transaction_type": "income",
-    "date": "20-12-2014",
-    "note": "cash"
-  },
-  {
     "transaction_id": 2,
     "title": "hulu",
     "amount": 100131.0,
