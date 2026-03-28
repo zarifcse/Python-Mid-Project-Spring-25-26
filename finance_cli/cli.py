@@ -38,7 +38,7 @@ class FinanceCLI:
         title.stylize("bold bright_cyan", 0, 3)
         title.stylize("bold bright_magenta", 3, len(title))
 
-        subtitle = Text("Personal money tracker", style="dim white")
+        subtitle = Text("Personal Finance Tracker", style="dim white")
         header_block = Panel(
             Align.left(Text.assemble(title, "\n", subtitle)),
             box=box.DOUBLE_EDGE,
