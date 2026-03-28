@@ -349,7 +349,7 @@ class FinanceCLI:
             "title": getattr(existing, "title", ""),
             "amount": getattr(existing, "amount", 0.0),
             "category": getattr(existing, "category", "General"),
-            "transaction_type": getattr(existing, "transaction_type", "income/expense"),
+            "transaction_type": getattr(existing, "transaction_type", "expense"),
             "date": getattr(existing, "date", datetime.now().strftime(DATE_FORMAT)),
             "note": getattr(existing, "note", ""),
         }
